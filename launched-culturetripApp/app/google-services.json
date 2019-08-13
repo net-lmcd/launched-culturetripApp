@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1040588621098",
+    "firebase_url": "https://allpostinprojectapp.firebaseio.com",
+    "project_id": "allpostinprojectapp",
+    "storage_bucket": "allpostinprojectapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040588621098:android:d668bc11a6015a04",
+        "android_client_info": {
+          "package_name": "com.cch.jeonju"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040588621098-a8dq7stg7b68ke3qe3hgks5lo4t0o1bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cch.jeonju",
+            "certificate_hash": "6718412271d02807e2616ca96df37da4d75f6d5f"
+          }
+        },
+        {
+          "client_id": "1040588621098-aak51i0crs920c63s4qndnjv13hmtimu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cch.jeonju",
+            "certificate_hash": "70efc84bb51ac352a03af84a0cb2be331018b3cb"
+          }
+        },
+        {
+          "client_id": "1040588621098-6h59dualnjdj5cbqd325ikr0u9lb5k12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdDaKYkpznXX1Fl6rFjPgT1v6lN-Teww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040588621098-6h59dualnjdj5cbqd325ikr0u9lb5k12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

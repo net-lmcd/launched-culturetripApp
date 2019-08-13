@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#130B0B</color>
+    <color name="colorPrimaryDark">#161212</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="deeppurple">#5E5D5D</color>
+    <color name="lightgrayline">#ededed</color>
+    <color name="materialyellow">#ffb300</color>
+    <color name="materialgreen">#00bfa5</color>
+    <color name="pinkaccent">#ff4081</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+
+    <color name="backgroundfragmentintab">#2b2b2b</color>
+</resources>

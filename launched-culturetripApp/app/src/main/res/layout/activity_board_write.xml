@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:onClick="cardViewClicked">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".BoardWriteActivity"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="전주의 멋을 사진과 함께 표현해주세요"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/write_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="제목을 입력해주세요"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:nextFocusDown="@id/write_contents_text"
+                android:textSize="24sp"/>
+
+
+            <ImageView
+                android:id="@+id/write_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/boardwriteimagebg"
+                android:onClick="imageViewClicked"/>
+
+            <EditText
+                android:id="@+id/write_contents_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="22sp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:hint="사진을 짧고 멋지게 표현해주세요"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/write_upload_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="게시글 등록"
+                android:textColor="#ffffff"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_rounded"
+                android:layout_gravity="center"/>
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/boardwrite_adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/app_admob_real_id"></com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
